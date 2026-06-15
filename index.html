@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Rest Countries</title>
+</head>
+<body>
+<div class="page-container">
+
+    <div class="page-header">
+        <h1>Where in the world?</h1>
+        <button class="theme-btn">
+            <i class="fa-regular fa-moon"></i> Dark Mode
+        </button>
+    </div>
+
+    <div class="page-filters">
+        <div class="search-wrapper">
+            <i class="search-icon"></i>
+            <input id="search" type="text" placeholder="Search for a country...">
+        </div>
+
+        <div class="filter-group">
+            <select>
+                <option value="">Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+
+            <select>
+                <option value="">Sort by</option>
+                <option value="pop-high">Population (High)</option>
+                <option value="pop-low">Population (Low)</option>
+                <option value="alpha-asc">Name (A-Z)</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="countries" class="countries-container"></div>
+
+</div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,317 @@
+[
+  {
+    "name": {
+      "common": "Afghanistan",
+      "official": "Islamic Republic of Afghanistan"
+    },
+    "capital": "Kabul",
+    "flags": {
+      "png": "https://flagcdn.com/w320/af.png",
+      "svg": "https://flagcdn.com/af.svg"
+    },
+    "population": 40218234,
+    "region": "Asia",
+    "area": 652230,
+    "language": "Dari",
+    "currency": {
+      "code": "AFN",
+      "name": "Afghan afghani",
+      "symbol": "؋"
+    },
+    "timezone": "UTC+04:30"
+  },
+  {
+    "name": {
+      "common": "Albania",
+      "official": "Republic of Albania"
+    },
+    "capital": "Tirana",
+    "flags": {
+      "png": "https://flagcdn.com/w320/al.png",
+      "svg": "https://flagcdn.com/al.svg"
+    },
+    "population": 2837743,
+    "region": "Europe",
+    "area": 28748,
+    "language": "Albanian",
+    "currency": {
+      "code": "ALL",
+      "name": "Albanian lek",
+      "symbol": "L"
+    },
+    "timezone": "UTC+01:00"
+  },
+  {
+    "name": {
+      "common": "Algeria",
+      "official": "People's Democratic Republic of Algeria"
+    },
+    "capital": "Algiers",
+    "flags": {
+      "png": "https://flagcdn.com/w320/dz.png",
+      "svg": "https://flagcdn.com/dz.svg"
+    },
+    "population": 44700000,
+    "region": "Africa",
+    "area": 2381741,
+    "language": "Arabic",
+    "currency": {
+      "code": "DZD",
+      "name": "Algerian dinar",
+      "symbol": "دج"
+    },
+    "timezone": "UTC+01:00"
+  },
+  {
+    "name": {
+      "common": "Argentina",
+      "official": "Argentine Republic"
+    },
+    "capital": "Buenos Aires",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ar.png",
+      "svg": "https://flagcdn.com/ar.svg"
+    },
+    "population": 45808747,
+    "region": "Americas",
+    "area": 2780400,
+    "language": "Spanish",
+    "currency": {
+      "code": "ARS",
+      "name": "Argentine peso",
+      "symbol": "$"
+    },
+    "timezone": "UTC-03:00"
+  },
+  {
+    "name": {
+      "common": "Australia",
+      "official": "Commonwealth of Australia"
+    },
+    "capital": "Canberra",
+    "flags": {
+      "png": "https://flagcdn.com/w320/au.png",
+      "svg": "https://flagcdn.com/au.svg"
+    },
+    "population": 25687041,
+    "region": "Oceania",
+    "area": 7692024,
+    "language": "English",
+    "currency": {
+      "code": "AUD",
+      "name": "Australian dollar",
+      "symbol": "$"
+    },
+    "timezone": "UTC+10:00"
+  },
+  {
+    "name": {
+      "common": "Austria",
+      "official": "Republic of Austria"
+    },
+    "capital": "Vienna",
+    "flags": {
+      "png": "https://flagcdn.com/w320/at.png",
+      "svg": "https://flagcdn.com/at.svg"
+    },
+    "population": 8917205,
+    "region": "Europe",
+    "area": 83871,
+    "language": "Austro-Bavarian German",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "timezone": "UTC+01:00"
+  },
+  {
+    "name": {
+      "common": "Brazil",
+      "official": "Federative Republic of Brazil"
+    },
+    "capital": "Brasília",
+    "flags": {
+      "png": "https://flagcdn.com/w320/br.png",
+      "svg": "https://flagcdn.com/br.svg"
+    },
+    "population": 212559409,
+    "region": "Americas",
+    "area": 8515767,
+    "language": "Portuguese",
+    "currency": {
+      "code": "BRL",
+      "name": "Brazilian real",
+      "symbol": "R$"
+    },
+    "timezone": "UTC-03:00"
+  },
+  {
+    "name": {
+      "common": "Canada",
+      "official": "Canada"
+    },
+    "capital": "Ottawa",
+    "flags": {
+      "png": "https://flagcdn.com/w320/ca.png",
+      "svg": "https://flagcdn.com/ca.svg"
+    },
+    "population": 38005238,
+    "region": "Americas",
+    "area": 9984670,
+    "language": "English",
+    "currency": {
+      "code": "CAD",
+      "name": "Canadian dollar",
+      "symbol": "$"
+    },
+    "timezone": "UTC-05:00"
+  },
+  {
+    "name": {
+      "common": "China",
+      "official": "People's Republic of China"
+    },
+    "capital": "Beijing",
+    "flags": {
+      "png": "https://flagcdn.com/w320/cn.png",
+      "svg": "https://flagcdn.com/cn.svg"
+    },
+    "population": 1402112000,
+    "region": "Asia",
+    "area": 9706961,
+    "language": "Chinese",
+    "currency": {
+      "code": "CNY",
+      "name": "Chinese yuan",
+      "symbol": "¥"
+    },
+    "timezone": "UTC+08:00"
+  },
+  {
+    "name": {
+      "common": "Czech Republic",
+      "official": "Czech Republic"
+    },
+    "capital": "Prague",
+    "flags": {
+      "png": "https://flagcdn.com/w320/cz.png",
+      "svg": "https://flagcdn.com/cz.svg"
+    },
+    "population": 10698896,
+    "region": "Europe",
+    "area": 78865,
+    "language": "Czech",
+    "currency": {
+      "code": "CZK",
+      "name": "Czech koruna",
+      "symbol": "Kč"
+    },
+    "timezone": "UTC+01:00"
+  },
+  {
+    "name": {
+      "common": "France",
+      "official": "French Republic"
+    },
+    "capital": "Paris",
+    "flags": {
+      "png": "https://flagcdn.com/w320/fr.png",
+      "svg": "https://flagcdn.com/fr.svg"
+    },
+    "population": 67391582,
+    "region": "Europe",
+    "area": 551695,
+    "language": "French",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "timezone": "UTC+01:00"
+  },
+  {
+    "name": {
+      "common": "Germany",
+      "official": "Federal Republic of Germany"
+    },
+    "capital": "Berlin",
+    "flags": {
+      "png": "https://flagcdn.com/w320/de.png",
+      "svg": "https://flagcdn.com/de.svg"
+    },
+    "population": 83240525,
+    "region": "Europe",
+    "area": 357114,
+    "language": "German",
+    "currency": {
+      "code": "EUR",
+      "name": "Euro",
+      "symbol": "€"
+    },
+    "timezone": "UTC+01:00"
+  },
+  {
+    "name": {
+      "common": "India",
+      "official": "Republic of India"
+    },
+    "capital": "New Delhi",
+    "flags": {
+      "png": "https://flagcdn.com/w320/in.png",
+      "svg": "https://flagcdn.com/in.svg"
+    },
+    "population": 1380004385,
+    "region": "Asia",
+    "area": 3287590,
+    "language": "English",
+    "currency": {
+      "code": "INR",
+      "name": "Indian rupee",
+      "symbol": "₹"
+    },
+    "timezone": "UTC+05:30"
+  },
+  {
+    "name": {
+      "common": "Japan",
+      "official": "Japan"
+    },
+    "capital": "Tokyo",
+    "flags": {
+      "png": "https://flagcdn.com/w320/jp.png",
+      "svg": "https://flagcdn.com/jp.svg"
+    },
+    "population": 125836021,
+    "region": "Asia",
+    "area": 377930,
+    "language": "Japanese",
+    "currency": {
+      "code": "JPY",
+      "name": "Japanese yen",
+      "symbol": "¥"
+    },
+    "timezone": "UTC+09:00"
+  },
+  {
+    "name": {
+      "common": "United States",
+      "official": "United States of America"
+    },
+    "capital": "Washington, D.C.",
+    "flags": {
+      "png": "https://flagcdn.com/w320/us.png",
+      "svg": "https://flagcdn.com/us.svg"
+    },
+    "population": 331893745,
+    "region": "Americas",
+    "area": 9372610,
+    "language": "English",
+    "currency": {
+      "code": "USD",
+      "name": "United States dollar",
+      "symbol": "$"
+    },
+    "timezone": "UTC-05:00"
+  }
+]

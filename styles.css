@@ -1,0 +1,230 @@
+body {
+    width: 100% !important;
+    max-width: 1920px !important;
+    min-height: 1080px;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    scroll-behavior: smooth;
+}
+
+.page-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 40px 24px;
+}
+
+.countries-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+}
+
+.country-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    color: #111517;
+    width: 280px;
+    font-family:"Open Sans", sans-serif;
+}
+
+.country-card h2, .country-card p {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.country-card h2 {
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.country-card p {
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.countryflag {
+    width: 280px !important;
+    height: 160px !important;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 24px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    border-radius: 8px;
+    font-family:"Open Sans", sans-serif;
+}
+
+.page-header h1 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #111517;
+    margin: 0;
+}
+
+.theme-btn {
+    background: none;
+    border: none;
+    color: #111517;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.page-filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 0 40px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.search-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 24px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-wrapper input {
+    width: 100%;
+    padding: 16px 16px 16px 64px;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+
+.filter-group {
+    display: flex;
+    gap: 16px;
+}
+
+.page-filters select {
+    padding: 16px 24px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: #111517;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: none;
+    min-width: 180px;
+}
+
+body.dark {
+    background-color: #202c37 !important;
+    color: #ffffff !important;
+}
+
+body.dark .page-header,
+body.dark .country-card,
+body.dark .search-wrapper input,        /*Vytvořeno přes AI, jestli tohle někdo ví z hlavy tak klobouček*/
+body.dark .page-filters select {
+    background-color: #2b3945 !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+body.dark .page-header h1,
+body.dark .country-card h2,
+body.dark .country-card color,
+body.dark .theme-btn,
+body.dark .search-wrapper input::placeholder {
+    color: #ffffff !important;
+}
+
+body.dark .country-card p i {
+    color: #b2b2b2 !important;
+}
+
+@media (max-width: 425px) {
+    .page-header {
+        padding: 24px 16px;
+    }
+
+    .page-header h1 {
+        font-size: 18px;
+    }
+
+    .theme-btn {
+        font-size: 14px;
+    }
+
+    .page-filters {
+        padding: 0 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .search-wrapper {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+
+    .search-wrapper input{
+        width: auto;
+    }
+    .filter-group {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .page-filters select {
+        width: 200px;
+    }
+
+
+    .page-container {
+        padding: 24px 16px;
+    }
+
+    .countries-container {
+        flex-direction: column !important;
+        align-items: stretch !important;
+        gap: 40px !important;
+        padding: 0 !important;
+        width: 100% !important;
+    }
+
+    .country-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+
+    .countryflag {
+        width: 100% !important;
+        height: 200px !important;
+    }
+}
+
